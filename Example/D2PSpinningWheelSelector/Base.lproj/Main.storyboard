@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,7 +20,38 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAE-9b-O6t">
+                                <rect key="frame" x="136.5" y="120" width="102" height="30"/>
+                                <state key="normal" title="Select Country"/>
+                                <connections>
+                                    <action selector="openCountrySelector:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="WKt-7d-2ex"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGp-5m-gAB">
+                                <rect key="frame" x="149" y="170" width="76" height="30"/>
+                                <state key="normal" title="Select Size"/>
+                                <connections>
+                                    <action selector="openSizeSelector:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gdx-eh-auD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfI-Tz-638">
+                                <rect key="frame" x="167" y="220" width="40" height="30"/>
+                                <state key="normal" title="Share"/>
+                                <connections>
+                                    <action selector="openShareSelector:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="pnb-Ys-9Wa"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mfI-Tz-638" firstAttribute="top" secondItem="BGp-5m-gAB" secondAttribute="bottom" constant="20" id="18P-Jn-0Rt"/>
+                            <constraint firstItem="IAE-9b-O6t" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="100" id="3XA-Fh-bgR"/>
+                            <constraint firstItem="mfI-Tz-638" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="A6S-jE-mUx"/>
+                            <constraint firstItem="BGp-5m-gAB" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="h9L-vu-VCS"/>
+                            <constraint firstItem="BGp-5m-gAB" firstAttribute="top" secondItem="IAE-9b-O6t" secondAttribute="bottom" constant="20" id="ifn-hL-nxH"/>
+                            <constraint firstItem="IAE-9b-O6t" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="xZK-Sd-BHp"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

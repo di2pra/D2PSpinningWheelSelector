@@ -1,0 +1,909 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03BD5521D8BEFF62290C84AF64E7AFA7 /* D2PItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D083DA00E6ACFC4E6593CD090A060 /* D2PItem.swift */; };
+		0512515C7C79F1F3B8A75A1B1294097F /* D2PSpinningWheelSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B464ACA095459E71CE1A98ABEC86F13 /* D2PSpinningWheelSelector.swift */; };
+		061061C6EAAF6B373D03439025E2783B /* D2PCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7EF926E0D2A79F9D298E9466CA05FF /* D2PCollectionView.swift */; };
+		194BBFEC20547A749FB1A73D02C05052 /* Pods-D2PSpinningWheelSelector_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 210439CCE0E1CEB59BD950A069775EB2 /* Pods-D2PSpinningWheelSelector_Example-dummy.m */; };
+		2BB4F79514E5620D530DFC97F9BE70E1 /* CircularLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96BC6F4C99ACD87E7EBA16984E57584 /* CircularLayout.swift */; };
+		3529419395C2DA4FEAA7D32238868037 /* CircularCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E14FB8D7571C64288B9C6CAA034EABD /* CircularCell.swift */; };
+		4D1D62E36C6AEA122DA8A467DD652C10 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E0ECF550279368BECE992C3C293A25 /* TextCell.swift */; };
+		503470873CC87BB482F23B5826CFF9AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		52B196CACB6736FE684A1411C9E86E05 /* IconCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = AEFEF8CDB2BA8A29D9B6018430BBA48A /* IconCell.xib */; };
+		578538212E78FA8D3D3A3281C4450DC3 /* D2PSpinningWheelSelector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3817AF028F9A2EE7679934A9629BF802 /* D2PSpinningWheelSelector-dummy.m */; };
+		57A3860E5E2CE424145ADA12043021D6 /* Pods-D2PSpinningWheelSelector_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA550FF8952CB30BD09E94A762CA93B /* Pods-D2PSpinningWheelSelector_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58F601E188003CDAC1794765797136D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6E8C546479EA7698EDBD93DDA5619306 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB237D8E5351E73A0788576F8119DD2 /* PresentationController.swift */; };
+		73BC66FB6D4C60868B3C563BD520F582 /* Pods-D2PSpinningWheelSelector_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5B88D0E28633513F06D358594AB00 /* Pods-D2PSpinningWheelSelector_Tests-dummy.m */; };
+		76749325DFCF999D3F53B5D4B8AD1FB0 /* IconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B4A3E7616BE7323B6CC37236322150 /* IconCell.swift */; };
+		76C34668E968343FAE0234991B84AAB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		85D4FC0D06424B6D94D0623660EC0C0A /* IconTextCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 8E066907A4C40D2BFF8AB95C7B8D857D /* IconTextCell.xib */; };
+		A2C963202E34917418226DD669641128 /* CircularLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BFC8C276138414FF1F2399C66D8044 /* CircularLayoutAttributes.swift */; };
+		A4278CB3F352ABFD94527B463347192B /* PresentationInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E504394121B36FE9783809B8F25E78C /* PresentationInteractionController.swift */; };
+		B2B4377BB49318DAAED3809CB04BC0AE /* PresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901358F69CC18FF0C680713B28D60B93 /* PresentationAnimator.swift */; };
+		BBA7977C3592EB5E068FA8190E4FF8D6 /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7D0C72B4F1EC661CEE17E5C8389432 /* CircularButton.swift */; };
+		BD23B96AD4B53E4BD7C0DC62A6775280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0AE19E3BD80DB78BA71FE387E470E02 /* Assets.xcassets */; };
+		C26047A3EF98800E29D8D4F3626577F1 /* Pods-D2PSpinningWheelSelector_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D24CA73177A89FD702B281E0A48E654 /* Pods-D2PSpinningWheelSelector_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D56D3B8A84BFA15C1DDA4E2474017D37 /* IconTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506D0FCD7B783E6B323CA8BB17440035 /* IconTextCell.swift */; };
+		DD88BC56928CFF36E994760998AC0E16 /* TextCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = DDD5802EFB91636AE6348A30735DC2EF /* TextCell.xib */; };
+		F2AD8DCCE97832589E8764634C6E2C6F /* D2PSpinningWheelSelector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 346E22A395604F071C9D0C728BEBED32 /* D2PSpinningWheelSelector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD34F1347DE9EE9AB9EDF58BA6501BF4 /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1BC1185E0F321060B6E5D6516772D /* PresentationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49E87F6296AF1D2238094AAE3471FEBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 396AF289ED25934A8CCD01A5706C01F6;
+			remoteInfo = D2PSpinningWheelSelector;
+		};
+		DB4B8EDD4EEDED8EDC78E841B966A6DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E3F5E2415EC8A7B1E93FAFBF7BD4590;
+			remoteInfo = "Pods-D2PSpinningWheelSelector_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0412B12335154D630058548845266050 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B48872F2002A66D57522E3C4D8C8042 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0D849F5C401F3CDC7C937FC23264B050 /* Pods-D2PSpinningWheelSelector_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-D2PSpinningWheelSelector_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		16FE29DD463EC054355F6365DA2F564C /* Pods-D2PSpinningWheelSelector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-D2PSpinningWheelSelector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1FCA09C7DE8005DC7DD768795671F105 /* Pods-D2PSpinningWheelSelector_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-D2PSpinningWheelSelector_Example.modulemap"; sourceTree = "<group>"; };
+		210439CCE0E1CEB59BD950A069775EB2 /* Pods-D2PSpinningWheelSelector_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-D2PSpinningWheelSelector_Example-dummy.m"; sourceTree = "<group>"; };
+		285EAAF2F4C4707CAEDD438F99B5664E /* D2PSpinningWheelSelector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = D2PSpinningWheelSelector.framework; path = D2PSpinningWheelSelector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FB11899D1BEEC94A647D58CD08041A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33B4A3E7616BE7323B6CC37236322150 /* IconCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IconCell.swift; sourceTree = "<group>"; };
+		346E22A395604F071C9D0C728BEBED32 /* D2PSpinningWheelSelector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "D2PSpinningWheelSelector-umbrella.h"; sourceTree = "<group>"; };
+		3817AF028F9A2EE7679934A9629BF802 /* D2PSpinningWheelSelector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "D2PSpinningWheelSelector-dummy.m"; sourceTree = "<group>"; };
+		3D9BBF01BFE488764C41B1DC2F36B8DA /* D2PSpinningWheelSelector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "D2PSpinningWheelSelector-prefix.pch"; sourceTree = "<group>"; };
+		3E504394121B36FE9783809B8F25E78C /* PresentationInteractionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PresentationInteractionController.swift; sourceTree = "<group>"; };
+		3ECB15AE48576E8D82BE73C2B73EF906 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49CD610806840E63837A72E46B4184A6 /* Pods-D2PSpinningWheelSelector_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-D2PSpinningWheelSelector_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B26B04A83B89CD81032786295447D88 /* Pods-D2PSpinningWheelSelector_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-D2PSpinningWheelSelector_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4B464ACA095459E71CE1A98ABEC86F13 /* D2PSpinningWheelSelector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = D2PSpinningWheelSelector.swift; path = D2PSpinningWheelSelector/Classes/D2PSpinningWheelSelector.swift; sourceTree = "<group>"; };
+		4F7EF926E0D2A79F9D298E9466CA05FF /* D2PCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = D2PCollectionView.swift; sourceTree = "<group>"; };
+		4FB237D8E5351E73A0788576F8119DD2 /* PresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		506D0FCD7B783E6B323CA8BB17440035 /* IconTextCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IconTextCell.swift; sourceTree = "<group>"; };
+		5AB2D5669526375E85F067F2DBD2E731 /* Pods-D2PSpinningWheelSelector_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-D2PSpinningWheelSelector_Tests.modulemap"; sourceTree = "<group>"; };
+		5D24CA73177A89FD702B281E0A48E654 /* Pods-D2PSpinningWheelSelector_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-D2PSpinningWheelSelector_Example-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A865CB820DA12EEB647B3439CE122FB /* Pods-D2PSpinningWheelSelector_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-D2PSpinningWheelSelector_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6E14FB8D7571C64288B9C6CAA034EABD /* CircularCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CircularCell.swift; sourceTree = "<group>"; };
+		6FCE5B442579CC09E8074BB988037B38 /* Pods-D2PSpinningWheelSelector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-D2PSpinningWheelSelector_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7ACDF9306101AC4A88BDC38691EE1A34 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		83E0ECF550279368BECE992C3C293A25 /* TextCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		8E066907A4C40D2BFF8AB95C7B8D857D /* IconTextCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = IconTextCell.xib; sourceTree = "<group>"; };
+		901358F69CC18FF0C680713B28D60B93 /* PresentationAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PresentationAnimator.swift; sourceTree = "<group>"; };
+		917740C1DD182A1627027B598BEAE60A /* Pods-D2PSpinningWheelSelector_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-D2PSpinningWheelSelector_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94BFC8C276138414FF1F2399C66D8044 /* CircularLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CircularLayoutAttributes.swift; sourceTree = "<group>"; };
+		9AF5B88D0E28633513F06D358594AB00 /* Pods-D2PSpinningWheelSelector_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-D2PSpinningWheelSelector_Tests-dummy.m"; sourceTree = "<group>"; };
+		AEFEF8CDB2BA8A29D9B6018430BBA48A /* IconCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = IconCell.xib; sourceTree = "<group>"; };
+		B0BCDCF5234A55C3181CB90D7C27F8CD /* Pods-D2PSpinningWheelSelector_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-D2PSpinningWheelSelector_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B14D083DA00E6ACFC4E6593CD090A060 /* D2PItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = D2PItem.swift; sourceTree = "<group>"; };
+		BA7D0C72B4F1EC661CEE17E5C8389432 /* CircularButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
+		C008BA14F3275EE1A6C809680E45BB67 /* Pods-D2PSpinningWheelSelector_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-D2PSpinningWheelSelector_Example-resources.sh"; sourceTree = "<group>"; };
+		C4A1BC1185E0F321060B6E5D6516772D /* PresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PresentationManager.swift; sourceTree = "<group>"; };
+		CB4D1A83D6D1D0CE049CC6E780EAB886 /* Pods-D2PSpinningWheelSelector_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-D2PSpinningWheelSelector_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D0AE19E3BD80DB78BA71FE387E470E02 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = D2PSpinningWheelSelector/Assets/Assets.xcassets; sourceTree = "<group>"; };
+		D3DA66C16867AC396AA971EC43F1952F /* D2PSpinningWheelSelector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = D2PSpinningWheelSelector.modulemap; sourceTree = "<group>"; };
+		D45E18BFE6E6E4A3EF2C42F810DFAA4B /* D2PSpinningWheelSelector.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = D2PSpinningWheelSelector.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D96BC6F4C99ACD87E7EBA16984E57584 /* CircularLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CircularLayout.swift; sourceTree = "<group>"; };
+		DDD5802EFB91636AE6348A30735DC2EF /* TextCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TextCell.xib; sourceTree = "<group>"; };
+		DFA550FF8952CB30BD09E94A762CA93B /* Pods-D2PSpinningWheelSelector_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-D2PSpinningWheelSelector_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EAEA31874BCD5C3E99EC7DF7D63A79A8 /* Pods-D2PSpinningWheelSelector_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-D2PSpinningWheelSelector_Tests-resources.sh"; sourceTree = "<group>"; };
+		EFE0E6CDFB9193DD6F231DFA9DDF7DB8 /* Pods_D2PSpinningWheelSelector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_D2PSpinningWheelSelector_Example.framework; path = "Pods-D2PSpinningWheelSelector_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F574AAEFF1E59A9A237D037434D0D0FB /* Pods-D2PSpinningWheelSelector_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-D2PSpinningWheelSelector_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F5BBA10689C3A12CD68FE96D4AD0AD6C /* Pods_D2PSpinningWheelSelector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_D2PSpinningWheelSelector_Tests.framework; path = "Pods-D2PSpinningWheelSelector_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB48472B18A161F316974190EB502F7 /* D2PSpinningWheelSelector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = D2PSpinningWheelSelector.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		112D148E6CF9C9DE054F64D4211DA4EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C34668E968343FAE0234991B84AAB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D3FE5771D2026178FA7D066F6FB699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F601E188003CDAC1794765797136D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73C51A87C7475A5A1CBB2884579C4789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503470873CC87BB482F23B5826CFF9AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A2C12A48C09E19A95818C41CAF1AE53 /* TextCell */ = {
+			isa = PBXGroup;
+			children = (
+				83E0ECF550279368BECE992C3C293A25 /* TextCell.swift */,
+				DDD5802EFB91636AE6348A30735DC2EF /* TextCell.xib */,
+			);
+			name = TextCell;
+			path = TextCell;
+			sourceTree = "<group>";
+		};
+		1C65851FDE18AB91B42EA1D45CCC98AC /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				D96BC6F4C99ACD87E7EBA16984E57584 /* CircularLayout.swift */,
+				94BFC8C276138414FF1F2399C66D8044 /* CircularLayoutAttributes.swift */,
+			);
+			name = Layout;
+			path = D2PSpinningWheelSelector/Classes/Layout;
+			sourceTree = "<group>";
+		};
+		32D1CE26C9430D1BE9CD8ABAA63790E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA7D0C72B4F1EC661CEE17E5C8389432 /* CircularButton.swift */,
+				4F7EF926E0D2A79F9D298E9466CA05FF /* D2PCollectionView.swift */,
+				C5906BEE3E5ACFF19BC152833A2E2425 /* CircularCell */,
+			);
+			name = Views;
+			path = D2PSpinningWheelSelector/Classes/Views;
+			sourceTree = "<group>";
+		};
+		33146EB2E1D26968912EDC5676760B69 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D45E18BFE6E6E4A3EF2C42F810DFAA4B /* D2PSpinningWheelSelector.podspec */,
+				7ACDF9306101AC4A88BDC38691EE1A34 /* LICENSE */,
+				0B48872F2002A66D57522E3C4D8C8042 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3F52E28B1CD244D8FECEB3FD62562D0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				285EAAF2F4C4707CAEDD438F99B5664E /* D2PSpinningWheelSelector.framework */,
+				EFE0E6CDFB9193DD6F231DFA9DDF7DB8 /* Pods_D2PSpinningWheelSelector_Example.framework */,
+				F5BBA10689C3A12CD68FE96D4AD0AD6C /* Pods_D2PSpinningWheelSelector_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4941D7EB81F6C2C497C17564EC442B6C /* Pods-D2PSpinningWheelSelector_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0412B12335154D630058548845266050 /* Info.plist */,
+				1FCA09C7DE8005DC7DD768795671F105 /* Pods-D2PSpinningWheelSelector_Example.modulemap */,
+				49CD610806840E63837A72E46B4184A6 /* Pods-D2PSpinningWheelSelector_Example-acknowledgements.markdown */,
+				4B26B04A83B89CD81032786295447D88 /* Pods-D2PSpinningWheelSelector_Example-acknowledgements.plist */,
+				210439CCE0E1CEB59BD950A069775EB2 /* Pods-D2PSpinningWheelSelector_Example-dummy.m */,
+				F574AAEFF1E59A9A237D037434D0D0FB /* Pods-D2PSpinningWheelSelector_Example-frameworks.sh */,
+				C008BA14F3275EE1A6C809680E45BB67 /* Pods-D2PSpinningWheelSelector_Example-resources.sh */,
+				5D24CA73177A89FD702B281E0A48E654 /* Pods-D2PSpinningWheelSelector_Example-umbrella.h */,
+				CB4D1A83D6D1D0CE049CC6E780EAB886 /* Pods-D2PSpinningWheelSelector_Example.debug.xcconfig */,
+				6A865CB820DA12EEB647B3439CE122FB /* Pods-D2PSpinningWheelSelector_Example.release.xcconfig */,
+			);
+			name = "Pods-D2PSpinningWheelSelector_Example";
+			path = "Target Support Files/Pods-D2PSpinningWheelSelector_Example";
+			sourceTree = "<group>";
+		};
+		4B2B2FC447ACB34181D399D28EF2F301 /* IconCell */ = {
+			isa = PBXGroup;
+			children = (
+				33B4A3E7616BE7323B6CC37236322150 /* IconCell.swift */,
+				AEFEF8CDB2BA8A29D9B6018430BBA48A /* IconCell.xib */,
+			);
+			name = IconCell;
+			path = IconCell;
+			sourceTree = "<group>";
+		};
+		57C745B33CB3FCD806BB92E3DC6196F4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E028E13DCC3858B03429F1FFACE1C8C /* D2PSpinningWheelSelector */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6F955CDC289F4BDFB23060916562DAE0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3DA66C16867AC396AA971EC43F1952F /* D2PSpinningWheelSelector.modulemap */,
+				FBB48472B18A161F316974190EB502F7 /* D2PSpinningWheelSelector.xcconfig */,
+				3817AF028F9A2EE7679934A9629BF802 /* D2PSpinningWheelSelector-dummy.m */,
+				3D9BBF01BFE488764C41B1DC2F36B8DA /* D2PSpinningWheelSelector-prefix.pch */,
+				346E22A395604F071C9D0C728BEBED32 /* D2PSpinningWheelSelector-umbrella.h */,
+				3ECB15AE48576E8D82BE73C2B73EF906 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/D2PSpinningWheelSelector";
+			sourceTree = "<group>";
+		};
+		7A517158129D5872CDE98574B7EE2546 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4941D7EB81F6C2C497C17564EC442B6C /* Pods-D2PSpinningWheelSelector_Example */,
+				D8DF7240E8740B901A4074963071F2F3 /* Pods-D2PSpinningWheelSelector_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				57C745B33CB3FCD806BB92E3DC6196F4 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3F52E28B1CD244D8FECEB3FD62562D0E /* Products */,
+				7A517158129D5872CDE98574B7EE2546 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E028E13DCC3858B03429F1FFACE1C8C /* D2PSpinningWheelSelector */ = {
+			isa = PBXGroup;
+			children = (
+				4B464ACA095459E71CE1A98ABEC86F13 /* D2PSpinningWheelSelector.swift */,
+				1C65851FDE18AB91B42EA1D45CCC98AC /* Layout */,
+				B6779E09F073349E1C30130C98396C04 /* Models */,
+				33146EB2E1D26968912EDC5676760B69 /* Pod */,
+				CD4D4383F7444AB87DBE53C4F26F709A /* Resources */,
+				6F955CDC289F4BDFB23060916562DAE0 /* Support Files */,
+				E1E0292FA094093F66A1E546758BE0AC /* TransitionAnimation */,
+				32D1CE26C9430D1BE9CD8ABAA63790E2 /* Views */,
+			);
+			name = D2PSpinningWheelSelector;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		93FF5860F9DD269772D58ECA4FFBAB79 /* IconTextCell */ = {
+			isa = PBXGroup;
+			children = (
+				506D0FCD7B783E6B323CA8BB17440035 /* IconTextCell.swift */,
+				8E066907A4C40D2BFF8AB95C7B8D857D /* IconTextCell.xib */,
+			);
+			name = IconTextCell;
+			path = IconTextCell;
+			sourceTree = "<group>";
+		};
+		B6779E09F073349E1C30130C98396C04 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B14D083DA00E6ACFC4E6593CD090A060 /* D2PItem.swift */,
+			);
+			name = Models;
+			path = D2PSpinningWheelSelector/Classes/Models;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5906BEE3E5ACFF19BC152833A2E2425 /* CircularCell */ = {
+			isa = PBXGroup;
+			children = (
+				6E14FB8D7571C64288B9C6CAA034EABD /* CircularCell.swift */,
+				4B2B2FC447ACB34181D399D28EF2F301 /* IconCell */,
+				93FF5860F9DD269772D58ECA4FFBAB79 /* IconTextCell */,
+				1A2C12A48C09E19A95818C41CAF1AE53 /* TextCell */,
+			);
+			name = CircularCell;
+			path = CircularCell;
+			sourceTree = "<group>";
+		};
+		CD4D4383F7444AB87DBE53C4F26F709A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D0AE19E3BD80DB78BA71FE387E470E02 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D8DF7240E8740B901A4074963071F2F3 /* Pods-D2PSpinningWheelSelector_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				30FB11899D1BEEC94A647D58CD08041A /* Info.plist */,
+				5AB2D5669526375E85F067F2DBD2E731 /* Pods-D2PSpinningWheelSelector_Tests.modulemap */,
+				917740C1DD182A1627027B598BEAE60A /* Pods-D2PSpinningWheelSelector_Tests-acknowledgements.markdown */,
+				B0BCDCF5234A55C3181CB90D7C27F8CD /* Pods-D2PSpinningWheelSelector_Tests-acknowledgements.plist */,
+				9AF5B88D0E28633513F06D358594AB00 /* Pods-D2PSpinningWheelSelector_Tests-dummy.m */,
+				0D849F5C401F3CDC7C937FC23264B050 /* Pods-D2PSpinningWheelSelector_Tests-frameworks.sh */,
+				EAEA31874BCD5C3E99EC7DF7D63A79A8 /* Pods-D2PSpinningWheelSelector_Tests-resources.sh */,
+				DFA550FF8952CB30BD09E94A762CA93B /* Pods-D2PSpinningWheelSelector_Tests-umbrella.h */,
+				16FE29DD463EC054355F6365DA2F564C /* Pods-D2PSpinningWheelSelector_Tests.debug.xcconfig */,
+				6FCE5B442579CC09E8074BB988037B38 /* Pods-D2PSpinningWheelSelector_Tests.release.xcconfig */,
+			);
+			name = "Pods-D2PSpinningWheelSelector_Tests";
+			path = "Target Support Files/Pods-D2PSpinningWheelSelector_Tests";
+			sourceTree = "<group>";
+		};
+		E1E0292FA094093F66A1E546758BE0AC /* TransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				901358F69CC18FF0C680713B28D60B93 /* PresentationAnimator.swift */,
+				4FB237D8E5351E73A0788576F8119DD2 /* PresentationController.swift */,
+				3E504394121B36FE9783809B8F25E78C /* PresentationInteractionController.swift */,
+				C4A1BC1185E0F321060B6E5D6516772D /* PresentationManager.swift */,
+			);
+			name = TransitionAnimation;
+			path = D2PSpinningWheelSelector/Classes/TransitionAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0EBBBC0D02FCB4778F940609E18C43C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A3860E5E2CE424145ADA12043021D6 /* Pods-D2PSpinningWheelSelector_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0FF279F0664AC0C448AA186548A395 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26047A3EF98800E29D8D4F3626577F1 /* Pods-D2PSpinningWheelSelector_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA5AD3D1195855CEE25A8BBFEC1BECB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AD8DCCE97832589E8764634C6E2C6F /* D2PSpinningWheelSelector-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19E62743496A68F45359F84DFC014AA4 /* Pods-D2PSpinningWheelSelector_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4C4A64854DA738F4A61DF9A1D8D9559 /* Build configuration list for PBXNativeTarget "Pods-D2PSpinningWheelSelector_Tests" */;
+			buildPhases = (
+				6084F631148661E2AA179BA485EBE6E9 /* Sources */,
+				112D148E6CF9C9DE054F64D4211DA4EC /* Frameworks */,
+				0EBBBC0D02FCB4778F940609E18C43C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BC7DBD305231291DDF1FDD4C54F32C4 /* PBXTargetDependency */,
+			);
+			name = "Pods-D2PSpinningWheelSelector_Tests";
+			productName = "Pods-D2PSpinningWheelSelector_Tests";
+			productReference = F5BBA10689C3A12CD68FE96D4AD0AD6C /* Pods_D2PSpinningWheelSelector_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		396AF289ED25934A8CCD01A5706C01F6 /* D2PSpinningWheelSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220F5D290BD9F68D6B4E4AE631BA8C36 /* Build configuration list for PBXNativeTarget "D2PSpinningWheelSelector" */;
+			buildPhases = (
+				11526E16D4E7148511F8B37D75D6E089 /* Sources */,
+				37D3FE5771D2026178FA7D066F6FB699 /* Frameworks */,
+				11F44C1D4CEF1F0E21349D4F23DB78B4 /* Resources */,
+				BEA5AD3D1195855CEE25A8BBFEC1BECB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = D2PSpinningWheelSelector;
+			productName = D2PSpinningWheelSelector;
+			productReference = 285EAAF2F4C4707CAEDD438F99B5664E /* D2PSpinningWheelSelector.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5E3F5E2415EC8A7B1E93FAFBF7BD4590 /* Pods-D2PSpinningWheelSelector_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D2AF34589886D349BF88CEF76A843FD /* Build configuration list for PBXNativeTarget "Pods-D2PSpinningWheelSelector_Example" */;
+			buildPhases = (
+				CBA57A728BE1663EE6F0E20BAA86F2EB /* Sources */,
+				73C51A87C7475A5A1CBB2884579C4789 /* Frameworks */,
+				8A0FF279F0664AC0C448AA186548A395 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C72657E375913C1B3A76864F6BF79A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-D2PSpinningWheelSelector_Example";
+			productName = "Pods-D2PSpinningWheelSelector_Example";
+			productReference = EFE0E6CDFB9193DD6F231DFA9DDF7DB8 /* Pods_D2PSpinningWheelSelector_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3F52E28B1CD244D8FECEB3FD62562D0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				396AF289ED25934A8CCD01A5706C01F6 /* D2PSpinningWheelSelector */,
+				5E3F5E2415EC8A7B1E93FAFBF7BD4590 /* Pods-D2PSpinningWheelSelector_Example */,
+				19E62743496A68F45359F84DFC014AA4 /* Pods-D2PSpinningWheelSelector_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11F44C1D4CEF1F0E21349D4F23DB78B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD23B96AD4B53E4BD7C0DC62A6775280 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11526E16D4E7148511F8B37D75D6E089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA7977C3592EB5E068FA8190E4FF8D6 /* CircularButton.swift in Sources */,
+				3529419395C2DA4FEAA7D32238868037 /* CircularCell.swift in Sources */,
+				2BB4F79514E5620D530DFC97F9BE70E1 /* CircularLayout.swift in Sources */,
+				A2C963202E34917418226DD669641128 /* CircularLayoutAttributes.swift in Sources */,
+				061061C6EAAF6B373D03439025E2783B /* D2PCollectionView.swift in Sources */,
+				03BD5521D8BEFF62290C84AF64E7AFA7 /* D2PItem.swift in Sources */,
+				578538212E78FA8D3D3A3281C4450DC3 /* D2PSpinningWheelSelector-dummy.m in Sources */,
+				0512515C7C79F1F3B8A75A1B1294097F /* D2PSpinningWheelSelector.swift in Sources */,
+				76749325DFCF999D3F53B5D4B8AD1FB0 /* IconCell.swift in Sources */,
+				52B196CACB6736FE684A1411C9E86E05 /* IconCell.xib in Sources */,
+				D56D3B8A84BFA15C1DDA4E2474017D37 /* IconTextCell.swift in Sources */,
+				85D4FC0D06424B6D94D0623660EC0C0A /* IconTextCell.xib in Sources */,
+				B2B4377BB49318DAAED3809CB04BC0AE /* PresentationAnimator.swift in Sources */,
+				6E8C546479EA7698EDBD93DDA5619306 /* PresentationController.swift in Sources */,
+				A4278CB3F352ABFD94527B463347192B /* PresentationInteractionController.swift in Sources */,
+				FD34F1347DE9EE9AB9EDF58BA6501BF4 /* PresentationManager.swift in Sources */,
+				4D1D62E36C6AEA122DA8A467DD652C10 /* TextCell.swift in Sources */,
+				DD88BC56928CFF36E994760998AC0E16 /* TextCell.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6084F631148661E2AA179BA485EBE6E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73BC66FB6D4C60868B3C563BD520F582 /* Pods-D2PSpinningWheelSelector_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA57A728BE1663EE6F0E20BAA86F2EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194BBFEC20547A749FB1A73D02C05052 /* Pods-D2PSpinningWheelSelector_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BC7DBD305231291DDF1FDD4C54F32C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-D2PSpinningWheelSelector_Example";
+			target = 5E3F5E2415EC8A7B1E93FAFBF7BD4590 /* Pods-D2PSpinningWheelSelector_Example */;
+			targetProxy = DB4B8EDD4EEDED8EDC78E841B966A6DE /* PBXContainerItemProxy */;
+		};
+		9C72657E375913C1B3A76864F6BF79A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = D2PSpinningWheelSelector;
+			target = 396AF289ED25934A8CCD01A5706C01F6 /* D2PSpinningWheelSelector */;
+			targetProxy = 49E87F6296AF1D2238094AAE3471FEBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1498CC5346472922D9C5C4B0FE1A02CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB4D1A83D6D1D0CE049CC6E780EAB886 /* Pods-D2PSpinningWheelSelector_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-D2PSpinningWheelSelector_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-D2PSpinningWheelSelector_Example/Pods-D2PSpinningWheelSelector_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1876CDFEFEB49548657F44ADA06C6832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16FE29DD463EC054355F6365DA2F564C /* Pods-D2PSpinningWheelSelector_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-D2PSpinningWheelSelector_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-D2PSpinningWheelSelector_Tests/Pods-D2PSpinningWheelSelector_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A002313C0F11884CA00B6326FD2E1733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FCE5B442579CC09E8074BB988037B38 /* Pods-D2PSpinningWheelSelector_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-D2PSpinningWheelSelector_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-D2PSpinningWheelSelector_Tests/Pods-D2PSpinningWheelSelector_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEC427E79F90E2ECBD24F892D92BE4A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A865CB820DA12EEB647B3439CE122FB /* Pods-D2PSpinningWheelSelector_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-D2PSpinningWheelSelector_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-D2PSpinningWheelSelector_Example/Pods-D2PSpinningWheelSelector_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5987CC78DFF358A1F50D5136C48985D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB48472B18A161F316974190EB502F7 /* D2PSpinningWheelSelector.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/D2PSpinningWheelSelector/D2PSpinningWheelSelector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/D2PSpinningWheelSelector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/D2PSpinningWheelSelector/D2PSpinningWheelSelector.modulemap";
+				PRODUCT_MODULE_NAME = D2PSpinningWheelSelector;
+				PRODUCT_NAME = D2PSpinningWheelSelector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA1DBD3CD66662D0822ED1B9BE7C5D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB48472B18A161F316974190EB502F7 /* D2PSpinningWheelSelector.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/D2PSpinningWheelSelector/D2PSpinningWheelSelector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/D2PSpinningWheelSelector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/D2PSpinningWheelSelector/D2PSpinningWheelSelector.modulemap";
+				PRODUCT_MODULE_NAME = D2PSpinningWheelSelector;
+				PRODUCT_NAME = D2PSpinningWheelSelector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		220F5D290BD9F68D6B4E4AE631BA8C36 /* Build configuration list for PBXNativeTarget "D2PSpinningWheelSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1DBD3CD66662D0822ED1B9BE7C5D47 /* Debug */,
+				D5987CC78DFF358A1F50D5136C48985D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D2AF34589886D349BF88CEF76A843FD /* Build configuration list for PBXNativeTarget "Pods-D2PSpinningWheelSelector_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1498CC5346472922D9C5C4B0FE1A02CA /* Debug */,
+				BEC427E79F90E2ECBD24F892D92BE4A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4C4A64854DA738F4A61DF9A1D8D9559 /* Build configuration list for PBXNativeTarget "Pods-D2PSpinningWheelSelector_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1876CDFEFEB49548657F44ADA06C6832 /* Debug */,
+				A002313C0F11884CA00B6326FD2E1733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

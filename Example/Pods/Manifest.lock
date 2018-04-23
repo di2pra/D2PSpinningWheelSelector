@@ -1,0 +1,16 @@
+PODS:
+  - D2PSpinningWheelSelector (1.0.0)
+
+DEPENDENCIES:
+  - D2PSpinningWheelSelector (from `../`)
+
+EXTERNAL SOURCES:
+  D2PSpinningWheelSelector:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  D2PSpinningWheelSelector: 097fbd847af3cc6384114ae6fa8b0b14a9b98150
+
+PODFILE CHECKSUM: ea8be51c7519515add4d44e409427ef96def6bbe
+
+COCOAPODS: 1.5.0

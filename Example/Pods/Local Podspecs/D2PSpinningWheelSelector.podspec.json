@@ -1,0 +1,25 @@
+{
+  "name": "D2PSpinningWheelSelector",
+  "version": "1.0.0",
+  "summary": "An elegant modal selector",
+  "description": "An elegant modal selector for iPhone using UICollectionView",
+  "homepage": "https://github.com/di2pra/D2PSpinningWheelSelector",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "di2pra": "pas495@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/di2pra/D2PSpinningWheelSelector.git",
+    "tag": "1.0.0"
+  },
+  "social_media_url": "https://twitter.com/di2pra",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "D2PSpinningWheelSelector/Classes/**/*",
+  "resources": "D2PSpinningWheelSelector/Assets/*.{xcassets}",
+  "swift_version": "4.0"
+}

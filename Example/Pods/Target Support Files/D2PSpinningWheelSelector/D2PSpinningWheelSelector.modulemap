@@ -1,0 +1,6 @@
+framework module D2PSpinningWheelSelector {
+  umbrella header "D2PSpinningWheelSelector-umbrella.h"
+
+  export *
+  module * { export * }
+}
