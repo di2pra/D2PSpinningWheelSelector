@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'D2PSpinningWheelSelector_Example' do
+  pod 'D2PSpinningWheelSelector', :path => '../'
+
+  target 'D2PSpinningWheelSelector_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
